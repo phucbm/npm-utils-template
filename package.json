@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/USERNAME/PROJECT_NAME/issues"
   },
-  "homepage": "https://github.com/USERNAME/PROJECT_NAME#readme",
+  "homepage": "https://github.com/USERNAME/PROJECT_NAME",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^24.0.3",

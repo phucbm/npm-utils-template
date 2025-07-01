@@ -1,4 +1,4 @@
-import { myUtilityFunction, processElement } from '../src/index';
+import {myUtilityFunction, processElement} from '../src';
 
 describe('PROJECT_NAME', () => {
     // Clean up DOM after each test

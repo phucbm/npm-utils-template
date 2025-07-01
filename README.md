@@ -2,7 +2,6 @@
 
 A TypeScript utility package
 
-[![Publish on Release](https://github.com/USERNAME/PROJECT_NAME/actions/workflows/publish.yml/badge.svg)](https://github.com/USERNAME/PROJECT_NAME/actions/workflows/publish.yml)
 [![npm version](https://badgen.net/npm/v/PACKAGE_NAME?icon=npm)](https://www.npmjs.com/package/PACKAGE_NAME)
 [![npm downloads](https://badgen.net/npm/dm/PACKAGE_NAME?icon=npm)](https://www.npmjs.com/package/PACKAGE_NAME)
 [![npm dependents](https://badgen.net/npm/dependents/PACKAGE_NAME?icon=npm)](https://www.npmjs.com/package/PACKAGE_NAME)

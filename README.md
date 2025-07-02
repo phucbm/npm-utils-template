@@ -71,6 +71,21 @@ pnpm run build
 pnpm run test:watch
 ```
 
+## Automated Workflows
+
+```
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│ DEPENDABOT  │───▶│    TEST     │───▶│   RELEASE   │───▶│   PUBLISH   │
+└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+```
+
+This repository uses automated dependency management and publishing:
+
+- **📦 Dependabot** - Creates PRs for dependency updates (daily for npm, weekly for actions)
+- **🧪 Test PR Action** - Auto-tests and merges passing Dependabot PRs with comment feedback  
+- **🚀 Dependabot Release Action** - Creates releases with patch version bumps when dependencies merge
+- **📤 Publish NPM Action** - Builds and publishes to npm registry when releases are created
+
 ## License
 
 MIT © [USERNAME](https://github.com/USERNAME)

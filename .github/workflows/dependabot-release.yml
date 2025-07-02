@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dependabot Release
-        uses: phucbm/dependabot-release-action@v1
+        uses: phucbm/dependabot-release-action@v1 #https://github.com/marketplace/actions/dependabot-release-action
         with:
           version-bump: 'patch'  # Always patch for dependency updates

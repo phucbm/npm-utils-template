@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/USERNAME/PROJECT_NAME",
   "devDependencies": {
-    "@phucbm/banner": "^0.0.1",
+    "@phucbm/banner": "^0.0.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^24.0.3",
     "jest": "^29.7.0",
